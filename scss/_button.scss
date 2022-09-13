@@ -1,11 +1,10 @@
 button{
     border:none;
-    box-sizing: border-box;
     cursor:pointer;
-    width:8rem;
-    font-size:10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width:9vw;
+    font-size:0.6rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     background-color: rgba(13, 95, 158, 0.1);
 
     a{
@@ -17,29 +16,61 @@ button{
     }
 
     i{
-        margin:3px;
+        margin:0.21em;
         color: #fff;
     }
 }
 
-.upper-nav_media, .upper-nav_carrers, .upper-nav_locations, .upper-nav .home{
-    width:4rem;
-    margin-left:1px;
+.home{
+    width:8vw;
 }
-
 
 .upper-nav, .lower-nav ul{
     list-style:none;
-    width:6rem;
+    width:6em;
 }
 .lower-nav{
     margin-left:0px;
-    margin-top: 0.8rem;
+    margin-top: 1em;
+}
+
+.upper-nav{
+    width:80vw;
+}
+
+#customer{
+    width:17vw;
+}
+.payment{
+    width:14vw;
+}
+
+#media{
+    width:8vw;
+}
+
+#about-btn, .about{
+    width:9vw;
+}
+
+#map{
+    width:16vw;
+}
+
+#e-bill{
+    width:15vw;
+}
+
+#contact{
+    width:14vw;
+}
+
+.download{
+    width:13vw;
 }
 
 .upper-nav button{
     z-index: 3;
-    margin-right: 0px;
 }
 
 .home{
