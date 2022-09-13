@@ -1,0 +1,23 @@
+.upper-nav_locations button:hover{
+    box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+
+     
+    & + .locations{
+        transform:translateY(0px);
+        transform-origin: -50px;
+        visibility:visible;
+        color:#fff;
+        height:5rem;
+        width:9rem;
+        transition: translate 2s ease-in-out;
+        box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+
+
+    }
+
+
+    a{
+        color:red;
+    }
+}
+

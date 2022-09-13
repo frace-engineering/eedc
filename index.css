@@ -1,0 +1,149 @@
+
+body{
+    margin:0;
+    background-image: linear-gradient(to top, rgba(29, 141, 179, 0.7), rgba(143, 186, 198, 0.1));
+    
+}
+.container{
+    height:1350px;
+    padding-top:15px;
+    background-image: linear-gradient(to top, rgba(29, 141, 179, 0.7), rgba(143, 186, 198, 0.1));
+    /* background-image: linear-gradient(to top, rgba(29, 141, 179, 0.7)); */
+}
+.eedc{
+    width:70%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.nav-container{
+    height:370px;
+    background-color: rgba(13, 95, 158, 0.7);
+    display:flex;
+    flex-direction: column;
+}
+
+.upper-nav{
+    display: flex;
+    height:1.5rem;
+    margin-top: 0px;
+    /* width:inherit; */
+    justify-content:space-between;
+    align-content: center;
+}
+
+nav li .fa-angle-down{
+    padding-left:2px;
+    width:0.3rem;
+}
+.home-inner{
+    box-shadow: 3px 4px rgba(0,0,0,0.5);
+    padding-left:5px;
+    text-align:center;
+    color:red;
+    height:30px;
+    padding-top:15px;
+    padding-right:10px;
+    font-weight:800;
+}
+.logo{
+    display:flex;
+    justify-content:space-between;
+}
+.logo ul{
+    display:flex;
+    padding-left:2rem;
+    align-items: center;
+    font-size:1.5rem
+}
+
+.red-line{
+    border-bottom:3px solid red;
+}
+.slid-in-image{
+    height:260px;
+    margin: 0px 15px 0px 15px;
+    border:1px solid blue;
+    opacity:1;
+    background-image: url("./covid-white.PNG");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: bottom;
+
+}
+.container-bottom{
+    background-color: rgb(220, 220, 220, 0.7);
+    height:750px;
+    padding-top:10px;
+    box-shadow: 1.8px 5px rgb(1,1,1,0.2);
+}
+.spotlight{
+    margin: 0px 9px 10px 9px;
+    background-color: #fff;
+    padding:15px 0px 15px 20px;
+}
+.white-space{
+    background-color: #fff;
+    height:15px;
+    margin:10px 0px 10px 0px;
+}
+.bottom-div-container{
+    display:flex;
+    justify-content:space-evenly;
+}
+.div{
+    height:250px;
+    width:23%;
+    background-color:#fff;
+    padding-left:8px;
+}
+h1{
+    font-size:12px;
+    font-weight:200;
+}
+span{
+    font-size:9px;
+    color:blue;
+}
+.div p{
+    font-size: 10px;
+}
+.third-party{
+    height:170px;
+    background-color: #fff;
+    margin-top: 15px;
+    padding:15px 15px 0px 15px;
+}
+.inner{
+    height:155px;
+    background-image: url("./third-party.PNG");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.last-div{
+    height:160px;
+    margin:10px 10px 150px 10px;
+    background-color: #fff;
+    background-image: url("./customer.PNG");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.calculator{
+    background-image: url("./calculator.PNG");
+    background-size:70%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.tariff{
+    background-image: url("./tariff.PNG");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: bottom;
+}
+.self-service{
+    background-image: url("./self-service.PNG");
+    background-size:70%;
+    background-repeat:no-repeat;
+    background-position: bottom;
+}

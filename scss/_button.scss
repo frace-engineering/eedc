@@ -1,0 +1,47 @@
+button{
+    border:none;
+    box-sizing: border-box;
+    cursor:pointer;
+    width:8rem;
+    font-size:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(13, 95, 158, 0.1);
+
+    a{
+        text-decoration: none;
+        color:#fff;
+    }
+    &:hover{
+    // box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+    }
+
+    i{
+        margin:3px;
+        color: #fff;
+    }
+}
+
+.upper-nav_media, .upper-nav_carrers, .upper-nav_locations, .upper-nav .home{
+    width:4rem;
+    margin-left:1px;
+}
+
+
+.upper-nav, .lower-nav ul{
+    list-style:none;
+    width:6rem;
+}
+.lower-nav{
+    margin-left:0px;
+    margin-top: 0.8rem;
+}
+
+.upper-nav button{
+    z-index: 3;
+    margin-right: 0px;
+}
+
+.home{
+    box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}

@@ -1,0 +1,250 @@
+button {
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 8rem;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(13, 95, 158, 0.1);
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+button i {
+  margin: 3px;
+  color: #fff;
+}
+
+.upper-nav_media, .upper-nav_carrers, .upper-nav_locations, .upper-nav .home {
+  width: 4rem;
+  margin-left: 1px;
+}
+
+.upper-nav, .lower-nav ul {
+  list-style: none;
+  width: 6rem;
+}
+
+.lower-nav {
+  margin-left: 0px;
+  margin-top: 0.8rem;
+}
+
+.upper-nav button {
+  z-index: 3;
+  margin-right: 0px;
+}
+
+.home {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+
+.upper-nav ul {
+  visibility: collapse;
+  transform: translateY(-100px);
+  background-color: rgba(13, 95, 158, 0.9);
+  box-shadow: inset rgba(5, 50, 84, 0.9);
+  width: 7rem;
+  list-style: none;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  z-index: 1;
+  padding-left: 2px;
+  transition: transform 1s ease;
+}
+
+.lower-nav ul {
+  visibility: collapse;
+  transform: translateY(-100px);
+  background-color: rgba(13, 95, 158, 0.9);
+  box-shadow: inset rgba(5, 50, 84, 0.9);
+  color: #ffe;
+  width: 7rem;
+  list-style: none;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 2px;
+  z-index: 0;
+}
+
+.lower-nav {
+  display: flex;
+  height: 2rem;
+  border-bottom: 3px solid red;
+  padding-bottom: 3px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.payment:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+
+.download:hover {
+  box-shadow: 4px 4px rgba(13, 95, 158, 0.9);
+}
+
+#about-btn:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+#about-btn:hover + .about {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 8rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+#about-btn:hover a {
+  color: red;
+}
+
+#customer:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+#customer:hover + .customer-information {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 6rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+#customer:hover a {
+  color: red;
+}
+
+.upper-nav_locations button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.upper-nav_locations button:hover + .locations {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 5rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.upper-nav_locations button:hover a {
+  color: red;
+}
+
+.upper-nav_media button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.upper-nav_media button:hover + .media {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 4rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.upper-nav_media button:hover a {
+  color: red;
+}
+
+.upper-nav_careers button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.upper-nav_careers button:hover + .job-listings {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 1.6rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.upper-nav_careers button:hover a {
+  color: red;
+}
+
+.lower-nav_e-bill button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.lower-nav_e-bill button:hover + .e-bill {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 3rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.lower-nav_e-bill button:hover + .e-bill li {
+  margin-left: 3px;
+}
+.lower-nav_e-bill button:hover a {
+  color: red;
+}
+
+.lower-nav_contact button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.lower-nav_contact button:hover + .contact-us {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 8rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.lower-nav_contact button:hover a {
+  color: red;
+}
+
+.lower-nav_map button:hover {
+  box-shadow: 4px 4px 4px 4px rgba(13, 95, 158, 0.9);
+}
+.lower-nav_map button:hover + .meter-request {
+  transform: translateY(0px);
+  transform-origin: -50px;
+  visibility: visible;
+  color: #fff;
+  height: 5.2rem;
+  width: 9rem;
+  transition: translate 2s ease-in-out;
+  box-shadow: inset -4px -4px 4px 4px rgba(3, 62, 107, 0.9);
+}
+.lower-nav_map button:hover a {
+  color: red;
+}
+
+.logo {
+  z-index: 200;
+}
+.logo ul {
+  list-style: none;
+}
+.logo ul li {
+  padding-left: 1rem;
+  font-size: 1.8rem;
+}
+.logo ul li i {
+  color: #0f30a0;
+}/*# sourceMappingURL=main.css.map */
